@@ -66,4 +66,14 @@ df['Address'] = address
 
 print(df)
 
+# Deleting columns frrom pandas dataFrame
+dataa.drop(["Team", "Weight"], axis = 1, inplace= True)
+
+# Display
+print(dataa)
+
+# Dealing with Rows: selecting, deleting, adding and renaming.
+
+
+
 
